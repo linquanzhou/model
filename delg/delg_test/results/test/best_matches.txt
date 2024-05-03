@@ -1,6 +1,6 @@
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/1: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/0/1/d/01d67d5dc8361b90
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/2: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/6/5/1653f50e9efcc6d0
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/3: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/3/c/13cf50095ea82c8b
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/4: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/0/f/d/0fdf00f866ddf358
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/5: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/1/9/119c9be96111e465
-/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/6: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/0/b/e/0bee59cd0b3f52a4
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/1: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/0/7/c/07c0b2af3754c914
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/2: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/0/6/1/0613786ffa19fb17
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/3: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/9/5/195f779fcb2044a5
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/4: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/8/1/1812b9b9d2adec96
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/5: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/1/b/9/1b9ba41098d91db3
+/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/6: /Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/gld_index/2/aa3cbe9e93a4ccd2

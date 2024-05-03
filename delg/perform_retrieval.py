@@ -74,13 +74,23 @@ def _ReadDelgGlobalDescriptors(input_dir, image_list):
         global_descriptors.append(datum_io.ReadFromFile(descriptor_fullpath))
     return np.array(global_descriptors)
 
-def save_best_matches(output_dir, query_list, index_list, best_match_indices):
+""" def save_best_matches(output_dir, query_list, index_list, best_match_indices):
     best_match_filename = os.path.join(output_dir, 'best_matches.txt')
     with open(best_match_filename, 'w') as file:
         for i, query in enumerate(query_list):
             best_match_image = index_list[best_match_indices[i]]
             file.write(f'{query}: {best_match_image}\n')
+    print(f'Best matches saved to {best_match_filename}') """
+def save_best_matches(output_dir, query_list, index_list, best_match_indices):
+    best_match_filename = os.path.join(output_dir, 'best_matches.txt')
+    prefix = '/Users/zz/Desktop/models/research/delf/delf/python/delg/delg_test/data/query_image/'  # 定义前缀路径
+    with open(best_match_filename, 'w') as file:
+        for i, query in enumerate(query_list):
+            best_match_image = index_list[best_match_indices[i]]
+            # 在文件写入时添加路径前缀
+            file.write(f'{prefix}{query}: {best_match_image}\n')
     print(f'Best matches saved to {best_match_filename}')
+
 
 if __name__ == '__main__':
     app.run(main)
