@@ -1,0 +1,5 @@
+gldv2_dataset/
+gldv2_training/delf_tf2-ckpt/
+gldv2_training/delf_weights.data-00000-of-00001
+resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5
+gldv2_model_local_and_global/variables/variables.data-00000-of-00001

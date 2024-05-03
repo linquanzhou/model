@@ -1,0 +1,2 @@
+model_checkpoint_path: "delf_weights"
+all_model_checkpoint_paths: "delf_weights"
