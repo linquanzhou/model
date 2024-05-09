@@ -1,4 +1,5 @@
 ##0 setup
+
 cd research
 export PYTHONPATH=$PYTHONPATH:`pwd`
 cd delf
@@ -8,6 +9,7 @@ python3 -c 'import delf'
 
 
 ##1 train model
+
 python3 build_image_dataset.py \
   --train_csv_path=gldv2_dataset/train/train.csv \
   --train_clean_csv_path=gldv2_dataset/train/train_clean.csv \
@@ -27,6 +29,7 @@ python3 build_image_dataset.py \
   --debug
 
 ##2 extract features
+
 python3 extract_features.py \
   --delf_config_path my_model_config.pbtxt \
   --query_list_path ~/delg/delg_test/query_list.txt \
@@ -43,6 +46,7 @@ python3 extract_features.py \
 
 
 ##3 compare
+
 python3 perform_retrieval.py \
   --query_list_path ~/delg/delg_test/query_list.txt \
   --index_list_path ~/delg/delg_test/gld_index_list.txt \
@@ -51,7 +55,9 @@ python3 perform_retrieval.py \
   --output_dir ~/delg/delg_test/results/test
 
 ##4 visualization
+
 python visualization.py --data_directory ‘~/delg/delg_test/data/gld_index --matches_file '~/delg/delg_test/results/test/best_matches.txt' --output_file 'unique_labels.txt' --max_rows 100
 
 ##5 generate map
+
 python map.py
