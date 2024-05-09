@@ -56,7 +56,7 @@ python3 perform_retrieval.py \
 
 ##4 visualization
 
-python visualization.py --data_directory ‘~/delg/delg_test/data/gld_index --matches_file '~/delg/delg_test/results/test/best_matches.txt' --output_file 'unique_labels.txt' --max_rows 100
+python visualization.py --data_directory ~/delg/delg_test/data/gld_index --matches_file ~/delg/delg_test/results/test/best_matches.txt --output_file 'unique_labels.txt' --max_rows 100
 
 ##5 generate map
 
