@@ -1,7 +1,7 @@
 import googlemaps
 import folium
 
-api_key = 'AIzaSyCftdIoVGOhvQcu3C6eZVLOLi5bV-qk_NU'
+api_key = 'your api key'
 gmaps = googlemaps.Client(key=api_key)
 
 
